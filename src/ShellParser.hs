@@ -38,7 +38,7 @@ parseExpr expr =
              Nothing -> case (cmd2, file) of
                              (Nothing, _) -> (Nothing, Nothing, False)
                              (_, Nothing) -> (Nothing, Nothing, False)
-                             (Just [], Just []) -> (Just expr, Just None, bg)
+                             (Just [], Just []) -> (Just exp, Just None, bg)
                              (Just xs, Just []) -> let 
                                                     pipe = words xs
                                                    in
