@@ -32,7 +32,7 @@ parseAndEval expr =
         (rawcmd, rawtype, bg) = parseExpr expr
     in
         case rawcmd of
-            Nothing -> hPutStrLn stderr "htsh: syntax error" >> return ()
+            Nothing -> hPutStrLn stderr "htsh: syntax error"
             Just st -> let
                             parsed = words st
                             cmd = head parsed
