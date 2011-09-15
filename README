@@ -1,0 +1,13 @@
+HTSH - The Haskell Tiny Shell
+
+This is me scratching the itch of making a somewhat major
+Haskell program.
+
+The prompt uses the readline library to make it easier to
+use this shell. Currently, none of the built in functions
+(cd, echo) are not implemented, but I probably will implement
+them at a later date.
+
+You can do piping, redirection, and backgrounding as of right
+now. Signal handling is currently a placeholder that prevents
+you from stopping the shell. Use ctrl+D to exit the shell.
