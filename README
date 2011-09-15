@@ -1,7 +1,8 @@
 HTSH - The Haskell Tiny Shell
 
-This is me scratching the itch of making a somewhat major
-Haskell program.
+This is me scratching an itch I had. I wanted a to write
+a relatively large Haskell program using libraries that
+I have never used before.
 
 The prompt uses the readline library to make it easier to
 use this shell. Currently, none of the built in functions
