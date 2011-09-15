@@ -1,5 +1,7 @@
-module ShellEval (CmdType
-                 , runIO) where
+-- | This module is used to evaluated the
+-- expressions processed by ShellParser.
+module ShellEval (runIO) where
+
 import System
 import System.Directory
 import System.IO

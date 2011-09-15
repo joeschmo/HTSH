@@ -1,3 +1,5 @@
+-- | Currently this module holds placeholders
+-- that simply ignore the interrupt, stop, and quit signals
 module ShellSig ( installIntHandler
                 , installTStpHandler
                 , installQuitHandler

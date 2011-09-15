@@ -1,3 +1,6 @@
+-- | This module is used to define all the 
+-- parsing needed to process a user's given
+-- input to the shell
 module ShellParser (parseExpr) where
 
 import System

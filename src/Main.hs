@@ -1,3 +1,5 @@
+-- | Main module where the interface for 
+-- the shell is housed
 module Main where
 import System
 import System.Console.Readline
